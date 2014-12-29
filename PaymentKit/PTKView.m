@@ -231,8 +231,6 @@ static NSString *const kPTKOldLocalizedStringsTableName = @"STPaymentLocalizable
                              [self.cardCVCField removeFromSuperview];
                          }];
     }
-
-    [self.cardNumberField becomeFirstResponder];
 }
 
 - (void)stateMeta
